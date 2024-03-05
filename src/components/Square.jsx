@@ -10,7 +10,8 @@ const Square= ({value,onClick})=>{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                fontSize:'30px'
+                fontSize:'30px',
+                cursor:'pointer'
             }}
         >
             <h4>{value}</h4>
